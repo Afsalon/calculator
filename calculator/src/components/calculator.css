@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+body{
+  /* box-sizing: border-box; */
+  margin:0;
+  padding: 0px;
+  background: linear-gradient(to right,#f72585,#b5179e,#7209b7,#560bad,#480ca8,#3f37c9,#4895ef,#4cc9f0);
+}
+.container{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.calcbody{
+  display: flex;
+  flex-direction: column;
+}
+.row1,.row2,.row3,.row4,.row5{
+  display: flex;
+}
+.buttonclass{
+  width: 80px;
+  height: 80px;
+  font-size: 20px;
+  border: 1px solid white;
+  font-family: 'Days One', sans-serif;
+  cursor: pointer;
+}
+.buttonclass:hover{
+  background:  #00CE00;
+}
+.buttonclassoperate:focus{
+  background:red;
+}
+/* .buttonclass:focus{background:red;} */
+.span2{
+  width: 160px;
+}
+.output{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100px;
+  width: 320px;
+  background: rgba(0,0,0,0.3);
+  font-family: 'Days One', sans-serif;
+}
+.processed{
+  width: 100%;
+  text-align: right;
+  min-height: 20px;
+  box-sizing: border-box;
+  padding-right:5px;
+  word-wrap: break-word;
+  color: rgba(255,255,255,0.4);
+}
+.current{
+  font-size: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-right:5px;
+  text-align: right;
+  word-wrap: break-word;
+  min-height: 20px;
+  color: white;
+}
